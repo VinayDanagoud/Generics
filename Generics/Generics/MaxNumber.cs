@@ -9,7 +9,7 @@ namespace Generics
     internal class MaxNumber
     {
         //This is a method created for maximum integer number
-        public static string FindMax(string first, string second, string third)
+        public static float FindMax(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
@@ -26,7 +26,7 @@ namespace Generics
             else
             {
                 Console.WriteLine("two or more numbers are equal");
-                return null;
+                return 0;
             }
         }
     }
